@@ -31,7 +31,7 @@
   </UIContainer>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import UIContainer from '@/components/ui/UIContainer.vue';
 import UIButton from '@/components/ui/UIButton.vue';
 import IconBrandLogoTitle from '@/components/icons/brand/IconBrandLogoTitle.vue';
