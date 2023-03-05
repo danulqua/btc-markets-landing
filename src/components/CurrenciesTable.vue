@@ -49,7 +49,7 @@
               text="Buy"
               type="primary"
               size="small"
-              class="col-span-2 ml-auto lg:col-span-1"
+              class="col-span-2 ml-auto lg:col-auto"
             />
           </div>
         </template>
