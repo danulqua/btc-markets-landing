@@ -17,6 +17,7 @@
       :possibilities="possibilitiesWallet"
       reverse
     />
+    <VipProgram />
   </main>
 </template>
 
@@ -26,6 +27,7 @@ import TheHero from '@/components/TheHero.vue';
 import CurrenciesTable from '@/components/CurrenciesTable.vue';
 import FeaturesSection from '@/components/FeaturesSection.vue';
 import PossibilitiesSection from '@/components/possibilities/PossibilitiesSection.vue';
+import VipProgram from '@/components/VipProgram.vue';
 
 import tradeImg from '@/assets/images/trade.png';
 import walletImg from '@/assets/images/wallet.png';
