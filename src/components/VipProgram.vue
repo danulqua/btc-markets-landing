@@ -3,13 +3,14 @@
     <UIContainer>
       <h2 class="text-center">VIP Program</h2>
       <h3 class="mt-4 text-center text-4xl leading-[50px]">
-        When you need more than just a crypto exchange
+        When you need more than<br />
+        just a crypto exchange
       </h3>
       <p class="mt-8 text-center text-[15px]">
         Access world-class APIs, a lower fee structure and a dedicated Account Manager.
       </p>
 
-      <div class="mt-12 flex items-center justify-around">
+      <div class="mt-12 flex items-center justify-center space-x-16">
         <div class="flex items-center space-x-2">
           <IconLightning class="h-6 w-6" />
           <span>API integrations</span>
