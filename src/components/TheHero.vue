@@ -1,7 +1,7 @@
 <template>
   <UIContainer>
     <section
-      class="flex h-[650px] items-center bg-right-bottom bg-no-repeat lg:bg-[url(@/assets/images/hero.png)]"
+      class="flex h-[650px] items-center bg-[bottom_right_52px] bg-no-repeat lg:bg-[url(@/assets/images/hero.png)]"
     >
       <div class="lg:w-[600px] xl:w-[660px]">
         <h1 class="text-7xl leading-[90px]">Buy, sell and trade crypto today</h1>
