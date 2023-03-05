@@ -4,6 +4,19 @@
     <TheHero />
     <CurrenciesTable />
     <FeaturesSection />
+    <PossibilitiesSection
+      title="Trade"
+      subtitle="Buy, sell and trade crypto with confidence"
+      :image="tradeImg"
+      :possibilities="possibilitiesTrade"
+    />
+    <PossibilitiesSection
+      title="Wallet"
+      subtitle="Simple and secure wallet services"
+      :image="walletImg"
+      :possibilities="possibilitiesWallet"
+      reverse
+    />
   </main>
 </template>
 
@@ -12,4 +25,10 @@ import TheHeader from '@/components/TheHeader.vue';
 import TheHero from '@/components/TheHero.vue';
 import CurrenciesTable from '@/components/CurrenciesTable.vue';
 import FeaturesSection from '@/components/FeaturesSection.vue';
+import PossibilitiesSection from '@/components/possibilities/PossibilitiesSection.vue';
+
+import tradeImg from '@/assets/images/trade.png';
+import walletImg from '@/assets/images/wallet.png';
+
+import { possibilitiesTrade, possibilitiesWallet } from '@/data/possibilities';
 </script>
