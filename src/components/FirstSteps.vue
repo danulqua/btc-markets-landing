@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-28">
+  <section class="py-28">
     <UIContainer>
       <h2 class="mx-auto w-96 text-center text-4xl leading-[50px]">
         Start trading in 3 easy steps

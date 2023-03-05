@@ -10,7 +10,7 @@
         Access world-class APIs, a lower fee structure and a dedicated Account Manager.
       </p>
 
-      <div class="mt-12 flex items-center justify-center space-x-16">
+      <div class="mt-12 flex flex-wrap items-center justify-center gap-y-8 gap-x-16">
         <div class="flex items-center space-x-2">
           <IconLightning class="h-6 w-6" />
           <span>API integrations</span>

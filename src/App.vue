@@ -19,6 +19,7 @@
     />
     <VipProgram />
     <FirstSteps />
+    <DownloadsSection />
   </main>
 </template>
 
@@ -30,6 +31,7 @@ import FeaturesSection from '@/components/FeaturesSection.vue';
 import PossibilitiesSection from '@/components/possibilities/PossibilitiesSection.vue';
 import VipProgram from '@/components/VipProgram.vue';
 import FirstSteps from '@/components/FirstSteps.vue';
+import DownloadsSection from '@/components/DownloadsSection.vue';
 
 import tradeImg from '@/assets/images/trade.png';
 import walletImg from '@/assets/images/wallet.png';
