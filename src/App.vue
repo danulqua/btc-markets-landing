@@ -21,6 +21,7 @@
     <FirstSteps />
     <DownloadsSection />
     <LatestNews />
+    <CallToAction />
   </main>
 </template>
 
@@ -34,6 +35,7 @@ import VipProgram from '@/components/VipProgram.vue';
 import FirstSteps from '@/components/FirstSteps.vue';
 import DownloadsSection from '@/components/DownloadsSection.vue';
 import LatestNews from '@/components/latest-news/LatestNews.vue';
+import CallToAction from '@/components/CallToAction.vue';
 
 import tradeImg from '@/assets/images/trade.png';
 import walletImg from '@/assets/images/wallet.png';

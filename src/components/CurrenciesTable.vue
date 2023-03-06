@@ -1,6 +1,6 @@
 <template>
   <UIContainer>
-    <div class="rounded shadow-lg shadow-neutral-100">
+    <div class="shadow-neutral rounded shadow-[0_0_30px_rgb(229,229,229)]">
       <div class="flex h-16 items-center justify-center space-x-8 border-b border-gray-100">
         <button class="text-sm text-dark-1">Most Popular</button>
         <button class="text-sm text-grey-1">Top Movers</button>
