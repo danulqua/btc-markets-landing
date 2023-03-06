@@ -9,14 +9,14 @@ export const latestNews: LatestNewsItem[] = [
     title: 'This Week in Crypto: 19th January 2023',
     image: newsImage1,
     date: 'Jan 19th 2023',
-    type: 'Newsletters',
+    type: 'Newsletter',
   },
   {
     id: 2,
     title: 'This Week in Crypto: 12th January 2023',
     image: newsImage2,
     date: 'Jan 12th 2023',
-    type: 'Newsletters',
+    type: 'Newsletter',
   },
   {
     id: 3,
