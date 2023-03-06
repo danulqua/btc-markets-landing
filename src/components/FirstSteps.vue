@@ -1,13 +1,13 @@
 <template>
   <section class="py-28">
     <UIContainer>
-      <h2 class="mx-auto w-96 text-center text-4xl leading-[50px]">
+      <h2 class="mx-auto w-96 text-center text-4xl leading-[50px]" data-aos="fade-up">
         Start trading in 3 easy steps
       </h2>
       <div
         class="mt-32 grid grid-cols-1 justify-items-center gap-y-16 md:grid-cols-2 lg:grid-cols-3"
       >
-        <div class="flex flex-col items-center">
+        <div class="flex flex-col items-center" data-aos="zoom-in-up">
           <div class="flex h-20 w-20 items-center justify-center rounded bg-cream">
             <IconUserVerified class="h-10 w-10" />
           </div>
@@ -17,7 +17,7 @@
             free account.
           </p>
         </div>
-        <div class="flex flex-col items-center">
+        <div class="flex flex-col items-center" data-aos="zoom-in-up" data-aos-delay="200">
           <div class="flex h-20 w-20 items-center justify-center rounded bg-cream">
             <IconWallet class="h-10 w-10" />
           </div>
@@ -27,7 +27,11 @@
             using our secure methods.
           </p>
         </div>
-        <div class="flex flex-col items-center md:col-span-2 lg:col-auto">
+        <div
+          class="flex flex-col items-center md:col-span-2 lg:col-auto"
+          data-aos="zoom-in-up"
+          data-aos-delay="400"
+        >
           <div class="flex h-20 w-20 items-center justify-center rounded bg-cream">
             <IconTradingBars class="h-10 w-10" />
           </div>
@@ -38,8 +42,14 @@
           </p>
         </div>
       </div>
-      <UIButton text="Get started" type="primary" size="large" class="mx-auto mt-11" />
-      <div class="mt-8 flex items-center justify-center space-x-2">
+      <UIButton
+        text="Get started"
+        type="primary"
+        size="large"
+        class="mx-auto mt-11"
+        data-aos="fade-up"
+      />
+      <div class="mt-8 flex items-center justify-center space-x-2" data-aos="fade-up">
         <img src="@/assets/icons/google.png" alt="Google logo" />
         <UIRating :rating="4.6" />
       </div>

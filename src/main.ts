@@ -1,6 +1,8 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from 'vue';
+import App from './App.vue';
 
-import './assets/main.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import './assets/main.css';
 
-createApp(App).mount('#app')
+createApp(App).use(AOS.init()!).mount('#app');
