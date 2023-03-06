@@ -2,7 +2,7 @@
   <section class="border-b border-gray-300 pt-48 pb-24">
     <UIContainer>
       <h2 class="text-4xl">Trade on the go</h2>
-      <p class="mt-6 w-[500px]">
+      <p class="w-max-[500px] mt-6">
         Place simple and advanced trades on the go with the BTC Markets app. You can also manage
         your portfolio, monitor prices, and track market movements, anywhere, anytime.
       </p>
