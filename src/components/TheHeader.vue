@@ -56,8 +56,8 @@
         leave-to-class="translate-x-full"
       >
         <nav
-          ref="mobileNav"
           v-if="open"
+          ref="mobileNav"
           class="fixed top-4 right-2 z-20 rounded bg-white p-4 shadow-lg lg:hidden"
         >
           <div class="flex justify-between">
