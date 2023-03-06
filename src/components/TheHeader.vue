@@ -104,18 +104,10 @@
           </div>
         </nav>
       </Transition>
-
-      <Transition
-        name="fade"
-        enter-active-class="transition ease-out duration-300"
-        enter-from-class="opacity-0"
-        enter-to-class="opacity-100"
-        leave-active-class="transition ease-in duration-300"
-        leave-from-class="opacity-100"
-        leave-to-class="opacity-0"
-      >
-        <div v-if="open" class="fixed inset-0 z-10 bg-black opacity-30 lg:hidden"></div>
-      </Transition>
+      <div
+        class="fixed inset-0 z-10 bg-black transition-all duration-300 lg:hidden"
+        :class="open ? 'opacity-50' : 'invisible opacity-0'"
+      ></div>
     </div>
   </UIContainer>
 </template>
