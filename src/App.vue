@@ -27,6 +27,9 @@
 </template>
 
 <script setup lang="ts">
+import { onMounted } from 'vue';
+import AOS from 'aos';
+
 import TheHeader from '@/components/TheHeader.vue';
 import TheHero from '@/components/TheHero.vue';
 import CurrenciesTable from '@/components/CurrenciesTable.vue';
@@ -43,4 +46,11 @@ import tradeImg from '@/assets/images/trade.png';
 import walletImg from '@/assets/images/wallet.png';
 
 import { possibilitiesTrade, possibilitiesWallet } from '@/data/possibilities';
+
+onMounted(() => {
+  AOS.init({
+    easing: 'ease-in-out',
+    offset: 100,
+  });
+});
 </script>

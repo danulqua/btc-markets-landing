@@ -1,5 +1,5 @@
 <template>
-  <div data-aos="zoom-in-up" data-aos-offset="-500" data-aos-delay="1300">
+  <div data-aos="zoom-in-up" data-aos-offset="-500" data-aos-duration="1000" data-aos-delay="1800">
     <UIContainer>
       <div class="shadow-neutral rounded shadow-[0_0_30px_rgb(229,229,229)]">
         <div class="flex h-16 items-center justify-center space-x-8 border-b border-gray-100">
